@@ -4,7 +4,8 @@ import React from 'react';
 const TodoItem = ({ item, index, deleteItem, editItem }) => {
   return (
     <div className="todo-item">
-      <span>{item}</span>
+      <span>{item.text}</span>
+      <span className={`category ${item.category.toLowerCase()}`}>{item.category}</span>
       <button onClick={() => editItem(index)}>
         <i className="fas fa-edit"></i>
       </button>

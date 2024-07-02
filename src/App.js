@@ -27,9 +27,9 @@ const App = () => {
 
   const editItem = (index) => {
     const newItems = [...items];
-    const newItem = prompt("Edit item:", newItems[index]);
+    const newItem = prompt("Edit item:", newItems[index].text);
     if (newItem !== null) {
-      newItems[index] = newItem;
+      newItems[index].text = newItem;
       setItems(newItems);
     }
   };
@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Grocery Shopping</h1>
+      <h1>ToDo App</h1>
       <AddItem addItem={addItem} />
       <TodoList items={items} deleteItem={deleteItem} editItem={editItem} />
       <button className="delete-list" onClick={deleteList}>Delete List</button>

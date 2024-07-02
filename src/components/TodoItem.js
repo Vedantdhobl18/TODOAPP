@@ -1,4 +1,4 @@
-// src/components/TodoItem.js
+
 import React from 'react';
 
 const TodoItem = ({ item, index, deleteItem, editItem }) => {

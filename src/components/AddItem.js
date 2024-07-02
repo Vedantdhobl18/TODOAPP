@@ -1,4 +1,4 @@
-// src/components/AddItem.js
+
 import React, { useState } from 'react';
 
 const AddItem = ({ addItem }) => {

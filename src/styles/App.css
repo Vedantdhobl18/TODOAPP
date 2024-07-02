@@ -1,0 +1,101 @@
+/* src/styles/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0e4e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .App {
+    text-align: center;
+    background: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    width: 300px;
+  }
+  
+  .App h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    flex: 1;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #3498db;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #34495e;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .todo-item span {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .todo-item button:hover {
+    background-color: #c0392b;
+  }
+  
+  .delete-list {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .delete-list:hover {
+    background-color: #c0392b;
+  }
+  
